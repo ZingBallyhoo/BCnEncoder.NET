@@ -71,6 +71,10 @@ namespace BCnEncoder.Shared
 		/// </summary>
 		AtcInterpolatedAlpha,
 		/// <summary>
+		/// DXGI R16G16B16_Float
+		/// </summary>
+		RgbaFloat16,
+		/// <summary>
 		/// Unknown format
 		/// </summary>
 		Unknown
