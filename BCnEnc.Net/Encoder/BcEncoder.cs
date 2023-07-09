@@ -2176,9 +2176,6 @@ namespace BCnEncoder.Encoder
 				case CompressionFormat.Bgra:
 					return new RawBgraEncoder();
 
-				case CompressionFormat.RgbaFloat16:
-					return new RawRgbaFloat16Encoder();
-
 				default:
 					throw new ArgumentOutOfRangeException(nameof(format), format, null);
 			}
